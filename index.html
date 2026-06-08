@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra ao Futuro | Explorando o Amanhã</title>
+    <meta name="description" content="Uma jornada visual da nossa origem ao futuro tecnológico.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontes e Ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Menu Principal">
+            <div class="logo">ECO<span>FUTURE</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#nasa-api">Espaço Hoje</a></li>
+                <li><a href="#futuro">O Amanhã</a></li>
+            </ul>
+            <button class="btn-contact">Conectar</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Da Terra ao <br><span class="text-gradient">Infinito</span></h1>
+                <p>Explore a evolução da humanidade e as tecnologias que moldarão o próximo século.</p>
+                <a href="#nasa-api" class="cta-button">Ver o Cosmos</a>
+            </div>
+        </section>
+
+        <!-- API Section (NASA) -->
+        <section id="nasa-api" class="api-container">
+            <h2 class="section-title">Imagem Astronômica do Dia</h2>
+            <p class="section-subtitle">Dados em tempo real via NASA API</p>
+            
+            <div id="nasa-content" class="nasa-card">
+                <div class="loader" id="loader"></div>
+                <!-- Conteúdo injetado via JS -->
+            </div>
+        </section>
+
+        <!-- Future Cards -->
+        <section id="futuro" class="features">
+            <div class="card" tabindex="0">
+                <div class="card-icon">🚀</div>
+                <h3>Colonização</h3>
+                <p>A vida multiplanetária está mais próxima do que imaginamos.</p>
+            </div>
+            <div class="card" tabindex="0">
+                <div class="card-icon">🤖</div>
+                <h3>I.A. Avançada</h3>
+                <p>A simbiose entre mente humana e circuitos digitais.</p>
+            </div>
+            <div class="card" tabindex="0">
+                <div class="card-icon">🌿</div>
+                <h3>Sustentabilidade</h3>
+                <p>Tecnologias limpas para regenerar o nosso ponto azul pálido.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Terra ao Futuro - Feito para o Amanhã</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
